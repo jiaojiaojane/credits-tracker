@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  background: green;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.home-header .header-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-paragraph {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+/* Input Form */
+
+.credits-input {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+}
+
+.input-form input {
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 10px 30px 10px 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.input-form input::placeholder {
+  color: white !important;
+}
+
+.input-form button {
+  background: none;
+  border: 1px solid white;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.input-form button:hover {
+  background: black;
+  color: white;
+}
+
+.main-content {
+  margin: 50px auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Class Display */
+.credits-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Individual class display */
+.credit-single {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  background: white;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+}
+
+.credit-name {
+  width: 30%;
+}
+
+.credit-id {
+  width: 30%;
+  text-align: right;
+}
+
+.credit-num {
+  width: 30%;
+  text-align: right;
+}
+
+.credit-delete {
+  width: 10%;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.credit-delete button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Totals Section */
+.credits-totals {
+  width: 100%;
+}
+.totals-container {
+  display: flex;
+  margin-bottom: 50px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.totals {
+  border: 2px solid green;
+  border-radius: 50%;
+  /* background: #DC4533; */
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  line-height: 100px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.totals-number {
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.totals-bottom {
+  position: absolute;
+  bottom: 0;
+}
+

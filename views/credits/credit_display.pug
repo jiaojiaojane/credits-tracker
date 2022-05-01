@@ -1,0 +1,7 @@
+if (credits != undefined)
+  each credit in credits 
+    div.credit-single 
+      p.credit-name= credit.name 
+      p.credit-id= credit.classId
+      p.credit-num= credit.credits
+      include delete_credit.pug

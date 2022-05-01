@@ -1,0 +1,16 @@
+if (credits != undefined)
+  - var total_classes = 0
+  - var total_credits = 0
+  
+  each credit in credits 
+    - total_classes = total_classes + 1
+    - total_credits = total_credits + credit.credits 
+    
+  div.totals-container
+    div.class-total.totals
+      h3.totals-number= total_classes 
+      div.totals-bottom Classes Left
+    div.credits-total.totals 
+      h3.totals-number= total_credits 
+      div.totals-bottom Credits Left
+  
